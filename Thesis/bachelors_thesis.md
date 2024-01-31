@@ -1,4 +1,4 @@
-# A Research on China's Legislation of Money Laundering and the Difficulties of Its Incrimination 
+# A Comparative Research on China's Legislation of Money Laundering and the Difficulties of Its Incrimination 
 
 China's anti-money laundering legislation has evolved and developed for decades, yielding significant successes. However, in contrast to nations that have actively combated this crime since the turn of the century, there are still shortcomings that are difficult to overlook. 
 
