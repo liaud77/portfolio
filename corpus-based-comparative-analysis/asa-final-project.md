@@ -2,15 +2,14 @@
 
 > This is an academic solo project, a corpus-based comparative analysis using R. I am responsible for research design, data collection and analysis, result interpretation and presentation. 
 >
+
 # 01. Introduction
 ## 1.1 Background
 This research focuses on a comparative analysis of two English translations of Sanguo Yanyi, a classic Chinese novel by Luo Guanzhong. The novel, known for its epic scope and rich characterizations, plays a significant role in Chinese literature. The translations under scrutiny are:
 - *Romance of the Three Kingdoms* translated by *C. H. Brewett-Taylor*. First published by Shanghai: Kelly&Walsh in 1925. Its excerpt selected for analysis is hereinafter referred to as text_1.
 - *A Historical Novel of Three Kingdoms* translated by *Moss Roberts*. First published by Berkeley and Los Angeles: University of California Press in 1991. Its excerpt selected for analysis is hereinafter referred to as text_2.
 
-> Content of text_1 and text_2:
->
-> For the analysis, considering the limitation on space and resource, only the first chapters are selected. When the texts are imported for POS and semantic tagging, the titles of the chapter are omitted.
+- Content of text_1 and text_2: For the analysis, considering the limitation on space and resource, only the first chapters are selected. When the texts are imported for POS and semantic tagging, the titles of the chapter are omitted.
 
 ## 1.2 Objectives
 The primary objective is to analyze and compare the two translations in terms of sentence word length and part-of-speech (POS) tag frequency, to understand their translation strategies and adherence to the original text's style.
@@ -19,7 +18,7 @@ The primary objective is to analyze and compare the two translations in terms of
 - How do the translation strategies between the two versions differ in terms of sentence word length and POS tag usage?
 - What might these differences suggest about each translator's approach to maintaining the original text's narrative style?
 
-# 02. Methodology
+# 02. Data Collection and Methodology
 The methodology involves annotating the texts with POS and semantic codes, followed by a comparative analysis on a sentence level using mean word lengths. A t-test examines the significance of differences, and frequency counts of each type of POS tag compare the texts' most and least frequent tags.
 
 ## 2.1 package dependencies
@@ -93,7 +92,7 @@ Text_1 has 303 blocks, text_2 has 279 blocks. This could indicates that the tran
 
 You can see that the dividers are not marked with block numbers, so that they won't be counted in the block length.
 
-## 2.4 Word Length Comparison
+## 2.4 Mean Word Length Comparison
 
 A t-test is a statistical hypothesis test used to determine if there is a significant difference between the means of two groups. Therefore the null hypothesis for this experiment is "there is no difference between the length in words of text_1 and text_2".
 
@@ -184,10 +183,9 @@ Now we have a comparison of words length of text_1 and text_2. Together with the
 
 ## 2.5 POS Analysis
 
-To find out the frequency of each type of POS tags, firstly they will be categorized into 16 kinds, by the following patterns:
+To find out the frequency of each type of POS tags, firstly they will be categorized into 13 kinds, by the following patterns:
 - Article: Starts with "AT"
 - Conjunction: "C"
-- Determiner: Starts with "PDT", or "DT", or "WDT"
 - Existential_there: "EX"
 - Genitive_s: "GE"
 - Preposition: Starts with "I"
@@ -198,8 +196,7 @@ To find out the frequency of each type of POS tags, firstly they will be categor
 - Adverb: Starts with "R"
 - Infinitive marker_to: "TO"
 - Verb: Starts with "V"
-- Negation: "NEG"
-- Formulas, foreign words, interjections, letters: "FW"
+- Other: Any other types that do not fit into the above categories
 
 ### 2.5.1 Categorize POS tags
 
@@ -287,22 +284,23 @@ F7. Comparison of POS Categories between Text_1 and Text_2
 # 03. Conclusion
 ## 3.1 Findings and Interpretation
 From the result of mean word length comparison, we can observe and conclude:
-    - Despite that text_2 has 24 blocks less than text_1, it has a higher mean word count (77) compared to text_1 (74). On average, the sentences in text_2 contain more words compared to those in text_1. Text_2 may use longer sentences or more complex language compared to text_1, by combining two or three sentences from the Chinese text into English translation.
-    - Two texts have a similar standard deviation (around 40-42), suggesting that while the mean word counts differ, the variability within each text is comparable. It indicates consistent writing styles or patterns within each text.
-    - The null hypothesis stands: There is no significant difference in the mean word lengths of text_1 and text_2.
-        - t-value: The t-value is -1.0791, it indicates that the mean word length of text_1 is slightly lower than that of text_2, but the magnitude of this difference is not substantial.
-        - Degrees of Freedom (df): The degrees of freedom for the t-test is approximately 569.22. Indicating a precise estimation.
-        - p-value: The p-value is 0.281, greater than the conventional significance level of 0.05, suggesting that we fail to reject the null hypothesis. In other words, there is no significant difference in the mean word lengths of text_1 and text_2.
+- Despite that text_2 has 24 blocks less than text_1, it has a higher mean word count (77) compared to text_1 (74). On average, the sentences in text_2 contain more words compared to those in text_1. Text_2 may use longer sentences or more complex language compared to text_1, by combining two or three sentences from the Chinese text into English translation.
+- Two texts have a similar standard deviation (around 40-42), suggesting that while the mean word counts differ, the variability within each text is comparable. It indicates consistent writing styles or patterns within each text.
+- The null hypothesis stands: There is no significant difference in the mean word lengths of text_1 and text_2.
+  - t-value: The t-value is -1.0791, it indicates that the mean word length of text_1 is slightly lower than that of text_2, but the magnitude of this difference is not substantial.
+  - Degrees of Freedom (df): The degrees of freedom for the t-test is approximately 569.22. Indicating a precise estimation.
+  - p-value: The p-value is 0.281, greater than the conventional significance level of 0.05, suggesting that we fail to reject the null hypothesis. In other words, there is no significant difference in the mean word lengths of text_1 and text_2.
 
 From the result of POS comparison, the two texts have the same highest and lowest categories of POS. The highest are noun, verb, and article. The lowest are existential "there", genitive "'s", and number or fraction. This suggests a similar translation strategy of the two texts, in line with their similarity in word lengths.
-    - Sanguo Yanyi is known for its extensive cast of characters, epic battles and political intrigues. The high usage of nouns reflects the narrative's emphasis on character development and portrayal. Whereas the high usage of verbs reflects the dynamic and action-oriented nature of the translation. It can be concluded that both translations follow the original storytelling style of the Chinese novel.
-    - Text_1 has less usage of genitive "'s" than text_2. According to a translation analysis by Yanyi (2023, p. 6), text_1 appears to “omit part of the source text and source culture to decrease the foreignness of his translation”. This can be reflected in the previous finding that text_1 has more words and shorter sentences -- text_1 simplifies certain grammatical structures by using less genitive "'s", but more nouns and verbs.
+- Sanguo Yanyi is known for its extensive cast of characters, epic battles and political intrigues. The high usage of nouns reflects the narrative's emphasis on character development and portrayal. Whereas the high usage of verbs reflects the dynamic and action-oriented nature of the translation. It can be concluded that both translations follow the original storytelling style of the Chinese novel.
+- Text_1 has less usage of genitive "'s" than text_2. According to a translation analysis by Yanyi (2023, p. 6), text_1 appears to “omit part of the source text and source culture to decrease the foreignness of his translation”. This can be reflected in the previous finding that text_1 has more words and shorter sentences -- text_1 simplifies certain grammatical structures by using less genitive "'s", but more nouns and verbs.
 
 ## 3.2 Overall Conclusion
 Overall, we can draw the following conclusions:
-    - There is no significant difference in the mean word lengths of text_1 and text_2.
-    - Text_1 is characterized by more words, but shorter and simpler sentences. On the contrary, sentences in text_2 are longer and more complex.
-    - Both texts use more nouns, verbs, and articles than other types of POS, suggesting an alignment with the writing style of the original novel.
+- There is no significant difference in the mean word lengths of text_1 and text_2.
+- Text_1 is characterized by more words, but shorter and simpler sentences. On the contrary, sentences in text_2 are longer and more complex.
+- Both texts use more nouns, verbs, and articles than other types of POS, suggesting an alignment with the writing style of the original novel.
 
 ## 3.3 Limitation
-This analysis only covers the first chapter of the source novel, the majority of which is background and character introduction. This cannot represent the whole image of their translation strategies. Additionally, The analysis of semantic usages is not included in this project due to limitations of time and resource. Comparison of the usage of positive and negative emotional words can be conducted, it can further support the reflection of their translation strategies.
+- This analysis only covers the first chapter of the source novel, the majority of which is background and character introduction. This cannot represent the whole image of their translation strategies. 
+- Additionally, The analysis of semantic usages is not included in this project due to limitations of time and resource. Comparison of the usage of positive and negative emotional words can be conducted, it can further support the reflection of their translation strategies.
