@@ -11,8 +11,7 @@ In this article, you will learn about:
   
 Estimated reading time: 10 minutes. 
 
-# Deciphering Humor in Translation: A Structuralist Approach through Saussure's Lens
-
+---
 You might have heard about a joke that goes: "Someone has two parts of their brain: the 'left' and the 'right'. In the left side, there's nothing right. In the right side, there's nothing left."
 
 Have you ever thought about how it can be translated into other languages in a way that preserves its humor for the target audience?
