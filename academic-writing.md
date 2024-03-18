@@ -1,5 +1,30 @@
+---
+layout: page
+title: "Academic Writing Sample"
+author: "Audrey Li"
+date: "2022-03-10" 
+collection: portfolio
+---
+> This sample consists of excerpts from my bachelor's (2019) and master's (2022) thesis.
+> 
+# A Comparative Research on China's Legislation of Money Laundering and the Difficulties of Its Incrimination 
+
+> This is an excerpt from my bachelor's thesis, written on 2019-06-10. 
+
+China's anti-money laundering legislation has evolved and developed for decades, yielding significant successes. However, in contrast to nations that have actively combated this crime since the turn of the century, there are still shortcomings that are difficult to overlook. 
+
+When comparing China's legislation development to its incrimination of money laundering, a striking situation calls for attention: over the years, only a small amount of cases have resulted in convictions for money laundering. This demonstrates some hazy lines between the regulation and implementation of money laundering. 
+
+This paper intends to analyze the legislation on money laundering in Japan and the United States, two representatives of Civil Law and Common Law, before discussing the limitations of China's legislation and bringing forward suggestions for improvement. 
+
+In the following chapters, I will first introduce the value and roadblocks of this research. Then, I will go over the fundamentals of the legislation on money laundering, which includes money laundering's definition, the value of its incrimination, and its historical development in China. In the third and fourth chapters, I will compare the status quo of money laundering legislation under Common Law and Civil Law, before analyzing the limitations of China's legislation. Finally, four strategies for enhancing and improving the incrimination of money laundering will be suggested: a. expand the scope of predicate crime; b. broaden the scope of subject to liability; c. clear the connotation of indirect intention and "should know"; d. build a stronger connection with international anti-money laundering legislation.
+
+---
+
 # Strategies for Restoring Readers' Participation in Translation of Detective Novels
 ## A Case Study of the English-Chinese Translation of *The Daughter of Time* 
+
+> This is an excerpt from my bachelor's thesis, written on 2019-06-10. 
 
 As a subgenre of popular literature, a detective novel describes the story of a detective with excellent reasoning ability who collects evidence, solves a big mystery and punishes the culprit. When Western detective novels were first introduced into China, translators would change the narrative sequence and perspective of the original texts to fit the traditional Chinese literary paradigm of the time. However, with the development of cross-cultural exchanges, Western culture and mindset have become less exotic and strange to today’s Chinese readers, as a result, the said translation strategy is no longer applicable. An up-to-date translator needs to be faithful to the original text, restore the narrative style and characteristics of the original work, and enhance the reading experience for Chinese readers. 
 

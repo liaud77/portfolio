@@ -1,6 +1,8 @@
-
 # How to move from Firefish to Mastodon
-This tutorial guides you to migrate your Firefish account to a new Mastodon account.
+
+> This is a step-by-step guide of account migration from Firefish to Mastodon. Target readers are Fediverse users who are unfamiliar with different Fediverse projects.  
+> 
+This tutorial guides you to migrate your current Firefish account to a new Mastodon account.
 
 Results:
 
@@ -12,6 +14,23 @@ In your current Firefish account:
 In your new Mastodon account:
 - Some data can be imported: your followers, followed users, user lists, muted users, and blocked users;
 - Some data can NOT be imported: your old posts, likes, bookmarks.
+
+**Table of Contents**
+- [How to move from Firefish to Mastodon](#how-to-move-from-firefish-to-mastodon)
+- [00. Prerequisites](#00-prerequisites)
+- [01. Export Your Data](#01-export-your-data)
+- [02. Create A New Mastodon Account](#02-create-a-new-mastodon-account)
+- [03. Configure Your New Account](#03-configure-your-new-account)
+  - [3.1 Back-Reference to Your Old Firefish Account](#31-back-reference-to-your-old-firefish-account)
+  - [3.2 Set Alias to Your New Mastodon Account](#32-set-alias-to-your-new-mastodon-account)
+- [04. Move Current Account to New Account](#04-move-current-account-to-new-account)
+  - [4.1 Before this step, make sure:](#41-before-this-step-make-sure)
+  - [4.2 When you are ready to migrate!](#42-when-you-are-ready-to-migrate)
+  - [4.3 After this step:](#43-after-this-step)
+- [05. Import Your Data into New Account](#05-import-your-data-into-new-account)
+- [06. Finally](#06-finally)
+- [07. FAQs](#07-faqs)
+- [08. See Also](#08-see-also)
    
 # 00. Prerequisites 
 Before moving forward, the reader should have:
