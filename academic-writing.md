@@ -1,10 +1,3 @@
----
-layout: page
-title: "Academic Writing Sample"
-author: "Audrey Li"
-date: "2022-03-10" 
-collection: portfolio
----
 > This sample consists of excerpts from my bachelor's (2019) and master's (2022) thesis.
 > 
 # A Comparative Research on China's Legislation of Money Laundering and the Difficulties of Its Incrimination 

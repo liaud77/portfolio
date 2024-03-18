@@ -1,8 +1,3 @@
----
-title: "Deciphering Humor in Translation: A Structuralist Approach through Saussure's Lens"
-author: "Audrey Li"
-date: "2020-09-16"
----
 # Deciphering Humor in Translation: A Structuralist Approach through Saussure's Lens
 
 > This is one of the article series I wrote for a communication company's educational channel. Target readers are translation students and freelance translators. 

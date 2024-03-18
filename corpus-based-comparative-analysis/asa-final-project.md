@@ -1,8 +1,3 @@
----
-title: "A Corpus-Based Comparative Analysis of Two English Translations of 'Sanguo Yanyi'"
-author: "Audrey Li"
-date: "2024-03-16"
----
 # A Corpus-Based Comparative Analysis of Two English Translations of 'Sanguo Yanyi'
 
 > This is an academic solo project, a corpus-based comparative analysis using R. I am responsible for research design, data collection and analysis, result interpretation and presentation. 
