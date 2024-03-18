@@ -81,7 +81,7 @@ Try it yourself before we reveal the reference translation!
 
 The translation gave up the literal form of "Xia Ke", neither transliterating nor explaining its meaning. Instead, it finds an English name, Carlos Owen, that phonetically resembles "class over".
 
-Translators need to uncover the logic behind the humor and convey **the signified** to master a "Play on the Signifier".
+Translators need to uncover the logic behind the humor and convey the **signified** to master a "Play on the Signifier".
 
 ## Translating Humor: Difficult or Impossible?
 <a id="elements-to-look-into-when-translating-humor"></a>
