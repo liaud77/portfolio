@@ -1,7 +1,27 @@
 # Deciphering Humor in Translation: A Structuralist Approach through Saussure's Lens
+Jump to the writing sample from [here](#blog-content). 
 
-> This is one of the article series I wrote for a communication company's educational channel. Target readers are translation students and freelance translators. 
-> 
+### Context
+I authored a series of insightful blogs for the educational channel of a communication company. This educational channel was part of the company's business activities, others including professional translation services, and localization training courses. Targeting translation students and freelance translators, these blogs were designed to illuminate various aspects of the translation and localization industry, bridging the gap between academic study and practical application in a professional setting.
+
+### Problem
+The primary challenge in creating this blog series was twofold: 
+- Translating abstract and theoretical knowledge of translation and localization into digestible, actionable insights for a reference book that catered to both novice and seasoned practitioners. This required not only a deep understanding of the subject matter but also an ability to convey complex ideas in an accessible manner. 
+- Seamlessly weaving in the company's own translation practices and case studies. The goal was to not merely present these practices as examples but to integrate them in a way that highlighted their relevance and applicability to the broader principles being discussed. This integration needed to be organic and informative, ensuring that the content served both as an educational resource and as a showcase of the company’s expertise and success in the field of translation and localization.
+  
+### Contribution
+My contributions through the blog series were manifold, directly impacting the educational and business goals of the company, specifically I:
+- Distilled complex translation and localization concepts into accessible, engaging content.
+- Promoted the company's localization courses by integrating practical examples and success stories related to the company’s training courses, 
+
+### Impact 
+- A 25% increase in account followers.
+- A 40% increase in enrolled students.
+- The educational channel served as a portal to showcase the company's expertise and brand image, enhancing its profile among potential clients and partners within the industry.
+
+---
+<a id="blog-content"></a>
+
 In this article, you will learn about:
 - [Definition of "signifier" and "signified"](#structuralism) from Saussure's structuralist theory;
 - [Insights](#insights) on how to translate humor by looking beyond "signifiers";

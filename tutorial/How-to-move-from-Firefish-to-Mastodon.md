@@ -1,22 +1,43 @@
 # How to move from Firefish to Mastodon
+Jump to the writing sample from [here](#writing-content).
 
-> This is a step-by-step guide of account migration from Firefish to Mastodon. Target readers are Fediverse users who are unfamiliar with different Fediverse projects.  
-> 
-This tutorial guides you to migrate your current Firefish account to a new Mastodon account.
+### Context
+This guide offers a step-by-step account migration process for the Fediverse community, focusing on transitioning from Firefish to Mastodon. Drawing from my experiences with both platforms and recognizing a gap in available resources, this tutorial aims to assist Fediverse users unfamiliar with navigating between different projects.
 
-Results:
+### Problem
+While there is ample guidance available for migrating from Mastodon to Firefish, resources for the reverse process are scarce. This scarcity of information results in confusion about linking Mastodon accounts with Firefish counterparts, leaving users without clear direction.
+
+### Contribution
+To address this gap, I created a new Mastodon account to understand the migration process firsthand, during which I:
+- Identified and recorded potential challenges encountered during the migration.
+- Consulted forum discussions and official documentation to devise solutions.
+- Compiled a comprehensive list of solutions not mentioned in existing guides.
+
+### Impact 
+- Fills a critical information gap, providing information that was absent in the community's collective knowledge.
+- Enhances platform accessibility, making it easier to switch between Fediverse platforms.
+- Facilitates a smoother migration experience, reducing migration challenges through detailed problem identification and solution documentation.
+  
+---
+<a id="writing-content"></a>
+
+Results of this tutorial:
 
 In your current Firefish account:
-- There will be a note displaying: **User has moved to a new account: @username@server.com**;
+- A note will display: **User has moved to a new account: @username@server.com**;
 - Your will not be able to make new posts;
 - Old posts will remain untouched.
 
 In your new Mastodon account:
-- Some data can be imported: your followers, followed users, user lists, muted users, and blocked users;
-- Some data can NOT be imported: your old posts, likes, bookmarks.
+- You can import: your followers, followed users, user lists, muted users, and blocked users;
+- You can NOT import: your old posts, likes, bookmarks.
 
 **Table of Contents**
 - [How to move from Firefish to Mastodon](#how-to-move-from-firefish-to-mastodon)
+    - [Context](#context)
+    - [Problem](#problem)
+    - [Contribution](#contribution)
+    - [Impact](#impact)
 - [00. Prerequisites](#00-prerequisites)
 - [01. Export Your Data](#01-export-your-data)
 - [02. Create A New Mastodon Account](#02-create-a-new-mastodon-account)
@@ -28,7 +49,7 @@ In your new Mastodon account:
   - [4.2 When you are ready to migrate!](#42-when-you-are-ready-to-migrate)
   - [4.3 After this step:](#43-after-this-step)
 - [05. Import Your Data into New Account](#05-import-your-data-into-new-account)
-- [06. Finally](#06-finally)
+- [06. Last Step](#06-last-step)
 - [07. FAQs](#07-faqs)
 - [08. See Also](#08-see-also)
    
@@ -76,8 +97,8 @@ Your new account must first be configured to back-reference the old one.
 
 # 04. Move Current Account to New Account
 ## 4.1 Before this step, make sure:
-- Your data is exported;
-- Your new account is configured.
+- to export your data;
+- to configure your new account.
 
 ## 4.2 When you are ready to migrate!
 Move back to your current Firefish account. 
@@ -100,30 +121,30 @@ Move back to your current Firefish account.
 
 ![mastodon-import](mastodon-import.png)
   
-# 06. Finally
-Even though there will be a note on your current account showing that you have moved, it is the best if you set up your new profile, and make a new post to tell your friends who you are, before they remove this blank account from their following list. Specifically, you can:
+# 06. Last Step
+Even though your current account now has a note notifying your migration, it is recommended to set up your new profile, and to make a new post to tell your friends who you are, before they remove this blank account from their following list. Specifically, you can:
 - direct your old account in your Bio;
 - utilize pinned posts for visibility.
 
 Now, enjoy your social life in Fediverse! 
 
 # 07. FAQs
-Q1: What is the relation between Firefish and Mastodon?
+*Q1: What is the relation between Firefish and Mastodon?*
 
 A1: As two separate projects, Firefish and Mastodon differ in features e.g. text limits, web UI, app compatibility, etc. But they are both decentralized, open-source social networking platforms that contribute to the Fediverse's ecosystem. 
 
-Q2: What if I want to keep my old posts?
+*Q2: What if I want to keep my old posts?*
 
 A2: You can import your posts as bookmarks into your new account: 
 - Download your posts from `Import/Export Data`, you will have a `.json` file containing all your posts stored in your Firefish `Drive`;
 - Convert the `.json` file into a `.csv` file;
 - Import the `.csv` file into your new account, from Mastodon `Edit profile` > `Import and export` > `Import` > Import type: `bookmarks` > `Choose File` > `upload`.
 
-Q3: When I click `Move account!` in Firefish, it says "Remote account doesn't have proper 'Known As' alias. Did you remember to set it?" But I already set alias to my new account. Why?
+*Q3: When I click `Move account!` in Firefish, it says "Remote account doesn't have proper 'Known As' alias. Did you remember to set it?" But I already set alias to my new account. Why?*
 
 A3: If you have successfully set alias to your new account, this might happen because you did not back reference to your current account. Use your new account to make a post, mention@ your current Firefish account, then you will be able to move! 
 
-Q4: Are the steps the same if I want to migrate from Mastodon to Firefish?
+*Q4: Are the steps the same if I want to migrate from Mastodon to Firefish?*
 
 A4: Not exactly. Mastodon and Firefish have different interface, different ways of exporting and importing data. You can refer to [this guidance](https://wedistribute.org/2023/07/how-to-move-from-mastodon-to-firefish/) if needed.
 
