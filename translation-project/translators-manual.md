@@ -73,6 +73,7 @@ Translators are responsible for the translation, self- and group-revision, and p
 **Note:** From the publication of [this book](http://g.yeeyan.org/view/2513), project managers and translators will enter into electronic contracts with Yeeyan, while physical contracts are still required for projects there before. 
 
 ![translators'responsibilities](images/translators%20resp.png)
+
 ### Reviewer
 
 The reviewer is an unofficial collaborator of the translation project, people who hold this position can be: alternate translators, freelancers, volunteer readers, publishers, etc.
@@ -93,7 +94,7 @@ To avoid the loss of any translated work, please do NOT work in the Yeeyan edito
   - a legal copyright;
   - a resolution of at least 1536x2048 px. 
 
-For a detailed format guidance, see translation Style Guide [here](style-guide/translation_style_guide.md). 
+For a detailed format guidance, see translation Style Guide [here](translation-project/translation-style-guide.md). 
 
 ### Group-Revision
 - Review other translators' uploaded text within a week after the upload. 

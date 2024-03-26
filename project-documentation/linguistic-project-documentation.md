@@ -3,16 +3,16 @@
 Jump to the writing sample from [here](#project-content). 
 
 ### Context
-This is an academic solo project, using R packages to analyze the linguistic features of two written corpora. This project was completed within a month, the audicence is any corpus linguistic student who is interested in applying R to linguistic research. 
+This is an academic solo project, using R packages to analyze the linguistic features of two written corpora. This project was completed within a month, the audience is any corpus linguistic student who is interested in applying R to linguistic research. 
 
 ### Problem
 Despite the critical and cultural importance of "Sanguo Yanyi", there has been limited quantitative analysis on how different translations handle the original's narrative complexity and linguistic richness. Questions remain about how translation strategies affect the readability, narrative style, and fidelity to the source material. 
 
 ### Contribution
-With the reference to similar corpus-based studies on translation strategies, I took initiatve on:
+With the reference to similar corpus-based studies on translation strategies, I took initiative on:
 - Developing the research plan.
 - Compiling and annotating the corpora. 
-- Analyzing the linguistic features. 
+- Analyzing the linguistic features.  
 - Producing documentation and presentation. 
 
 ### Impact
@@ -21,6 +21,8 @@ By quantifying differences in translation strategies, this research sheds light 
 ---
 
 <a id="project-content"></a>
+
+**Table of Contents**
 - [A Corpus-Based Comparative Analysis of Two English Translations of "Sanguo Yanyi"](#a-corpus-based-comparative-analysis-of-two-english-translations-of-sanguo-yanyi)
     - [Context](#context)
     - [Problem](#problem)
