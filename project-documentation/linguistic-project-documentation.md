@@ -3,7 +3,7 @@
 Jump to the writing sample from [here](#project-content). 
 
 ### Context
-This is an academic solo project, using R packages to analyze the linguistic features of two written corpora. This project was completed within a month, the audience is any corpus linguistic student who is interested in applying R to linguistic research. 
+This was an academic solo project, using R packages to analyze the linguistic features of two written corpora. This project was completed within a month, the audience is any corpus linguistic student who is interested in applying R to linguistic research. 
 
 ### Problem
 Despite the critical and cultural importance of "Sanguo Yanyi", there has been limited quantitative analysis on how different translations handle the original's narrative complexity and linguistic richness. Questions remain about how translation strategies affect the readability, narrative style, and fidelity to the source material. 
